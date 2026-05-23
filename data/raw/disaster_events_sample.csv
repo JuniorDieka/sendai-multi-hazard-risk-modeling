@@ -1,0 +1,31 @@
+serial,glide,year,month,day,eventname,level1,level2,level3,latitude,longitude,hazardtype,deaths,injured,missing,affected,displaced,housesdestroyed,housesdamaged,educationcenters,healthcenters,localvalue,usdvalue,durationdays,eventdescription
+1,FL-2023-000123,2023,4,15,Seasonal Flooding,Kenya,Nairobi,Nairobi County,-1.2921,36.8219,FLOOD,45,230,5,125000,35000,2500,8900,12,3,500000000,6000000,7,Severe seasonal flooding affected multiple districts
+2,DR-2023-000045,2023,2,6,Horn of Africa Drought,Ethiopia,Somali,Gode,5.9572,43.5500,DROUGHT,892,3450,127,250000,85000,12500,45000,89,23,2500000000,30000000,180,Prolonged drought in pastoral areas
+3,ST-2022-000234,2022,11,12,Tropical Cyclone,Tanzania,Dar es Salaam,Kinondoni,-6.7924,39.2083,STORM,23,156,2,85000,12000,1200,5600,8,2,150000000,1800000,3,Tropical cyclone made landfall on coast
+4,FL-2022-000156,2022,5,20,Flash Flood,Kenya,Rift Valley,Nakuru,-0.3031,36.0800,FLOOD,156,890,34,450000,125000,8900,34000,45,12,800000000,9600000,5,Urban flash flooding from heavy rains
+5,DR-2022-000089,2022,3,1,Drought,Somalia,Banadir,Mogadishu,2.0469,45.3182,DROUGHT,312,0,0,1200000,0,0,0,0,0,350000000,4200000,150,Prolonged drought affecting agriculture and livestock
+6,LS-2021-000067,2021,10,25,Landslide,Uganda,Western,Kasese,0.1833,30.0833,LANDSLIDE,67,234,12,15000,3400,450,1200,5,1,45000000,540000,2,Heavy rain triggered landslides in mountainous areas
+7,FL-2021-000198,2021,4,8,River Flooding,Kenya,Western,Budalangi,0.1667,34.0167,FLOOD,234,1200,45,890000,234000,12000,56000,67,18,1200000000,14400000,12,Major river flooding along Lake Victoria basin
+8,FI-2021-000034,2021,8,15,Forest Fire,Tanzania,Kilimanjaro,Moshi,-3.3500,37.3333,FIRE,8,45,0,5600,1200,120,450,2,0,23000000,276000,8,Forest fires on mountain slopes
+9,ST-2020-000145,2020,3,10,Tropical Storm,Mozambique,Sofala,Beira,-19.8436,34.8389,STORM,45,345,8,156000,45000,3400,12000,23,6,450000000,5400000,4,Severe tropical storm
+10,EQ-2020-000023,2020,1,24,Earthquake M5.8,Ethiopia,Afar,Semera,11.7833,41.0000,EARTHQUAKE,34,189,5,45000,12000,890,3400,12,3,120000000,1440000,1,Moderate earthquake in Rift Valley
+11,FL-2019-000234,2019,5,12,Seasonal Flood,Uganda,Eastern,Mbale,1.0667,34.1833,FLOOD,89,567,12,234000,67000,4500,18000,34,8,340000000,4080000,9,Extensive seasonal flooding
+12,HR-2019-000156,2019,11,5,Heavy Rainfall,Kenya,Coast,Mombasa,-4.0435,39.6682,HEAVY RAIN,23,123,3,67000,15000,1200,4500,8,2,89000000,1068000,4,Intense rainfall event
+13,DR-2018-000078,2018,6,20,Drought,Kenya,Eastern,Garissa,-0.4569,39.6582,DROUGHT,205,0,0,890000,0,0,0,0,0,230000000,2760000,120,Agricultural and pastoral drought
+14,LS-2018-000045,2018,9,30,Landslide,Ethiopia,Southern Nations,Arba Minch,6.0333,37.5500,LANDSLIDE,123,456,23,34000,8900,2300,5600,12,4,156000000,1872000,3,Rain-triggered landslides
+15,FL-2017-000189,2017,4,15,Urban Flood,Kenya,Nairobi,Nairobi County,-1.2921,36.8219,FLOOD,67,345,8,345000,89000,5600,23000,45,12,670000000,8040000,6,Urban flooding in capital city
+16,ST-2017-000123,2017,12,28,Windstorm,Tanzania,Mwanza,Mwanza City,-2.5167,32.9000,STORM,12,89,2,23000,5600,450,1800,5,1,45000000,540000,1,Severe windstorm event
+17,DR-2016-000067,2016,7,25,Drought,Somalia,Bay,Baidoa,3.1167,43.6500,DROUGHT,2345,8900,456,1200000,345000,45000,123000,234,67,8900000000,106800000,240,Catastrophic drought disaster
+18,FL-2016-000234,2016,5,20,Flood,Uganda,Northern,Gulu,2.7667,32.3000,FLOOD,156,678,23,456000,123000,8900,34000,56,15,560000000,6720000,10,Nile River flooding
+19,FI-2015-000045,2015,2,10,Fire,Kenya,Nairobi,Kibera,-1.3133,36.7892,FIRE,34,234,5,12000,3400,890,2300,8,2,89000000,1068000,2,Urban informal settlement fire
+20,DR-2015-000089,2015,8,15,Drought,Ethiopia,Oromia,Borena,4.5000,38.5000,DROUGHT,178,0,0,670000,0,0,0,0,0,340000000,4080000,150,Water scarcity crisis in pastoral zone
+21,FL-2014-000178,2014,10,8,Flash Flood,Tanzania,Morogoro,Morogoro Urban,-6.8167,37.6667,FLOOD,234,890,45,234000,67000,5600,18000,34,9,450000000,5400000,5,Devastating flash floods
+22,ST-2014-000123,2014,1,12,Tropical Cyclone,Mozambique,Nampula,Nampula City,-15.1165,39.2666,STORM,89,456,12,123000,34000,2300,8900,23,6,340000000,4080000,3,Very severe tropical cyclone
+23,FL-2013-000056,2013,4,16,Riverine Flood,Kenya,Nyanza,Kisumu,-0.0917,34.7680,FLOOD,456,1200,234,89000,23000,3400,12000,45,12,560000000,6720000,8,Major flooding disaster
+24,FL-2013-000189,2013,11,25,Flood,Uganda,Central,Kampala,0.3476,32.5825,FLOOD,45,234,8,156000,45000,3400,12000,23,6,230000000,2760000,8,Severe urban flooding
+25,DR-2012-000034,2012,3,18,Drought,Kenya,North Eastern,Wajir,1.7500,40.0667,DROUGHT,267,345,12,450000,120000,8900,34000,12,3,120000000,1440000,180,Severe pastoral drought
+26,FL-2012-000067,2012,5,1,Flood,Tanzania,Kagera,Bukoba,-1.3333,31.8167,FLOOD,112,0,0,560000,0,0,0,0,0,180000000,2160000,6,Lake Victoria basin flooding
+27,DR-2011-000234,2011,7,15,Horn of Africa Drought,Somalia,Lower Shabelle,Afgooye,2.1333,45.1167,DROUGHT,3450,12000,670,890000,234000,12000,45000,78,23,1200000000,14400000,210,Catastrophic famine-level drought
+28,ST-2011-000089,2011,2,29,Tropical Storm,Madagascar,Toamasina,Toamasina City,-18.1443,49.4122,STORM,23,156,5,67000,18000,1200,4500,12,3,156000000,1872000,3,Tropical storm
+29,FL-2010-000167,2010,9,5,Flash Flood,Ethiopia,Addis Ababa,Addis Ababa,9.0320,38.7469,FLOOD,234,567,45,123000,8900,2300,5600,15,4,89000000,1068000,2,Urban flash floods
+30,EP-2010-000045,2010,1,12,Cholera Outbreak,Kenya,Rift Valley,Nakuru,-0.3031,36.0800,EPIDEMIC,123,1230,5,34000,8900,670,2300,8,2,67000000,804000,45,Waterborne disease outbreak

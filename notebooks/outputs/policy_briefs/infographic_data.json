@@ -1,0 +1,28 @@
+{
+  "title": "The Power of Complete Disaster Data",
+  "subtitle": "Analysis of 30 disaster events (2010-2023)",
+  "data_quality": {
+    "completeness_pct": 100.0,
+    "status": "EXCELLENT"
+  },
+  "impact_metrics": {
+    "deaths": 11887,
+    "affected_millions": 11.682109,
+    "economic_loss_billions": 0.251388
+  },
+  "climate_finance": {
+    "green_climate_fund": true,
+    "adaptation_fund": true,
+    "gef": true,
+    "potential_funding": 195,
+    "requirements_met": [
+      "Loss as % of GDP (Sendai C-1)",
+      "Population-normalized impacts (Sendai A-1, B-1)"
+    ]
+  },
+  "roi_drr": {
+    "conservative": 4,
+    "moderate": 5.5,
+    "optimistic": 7
+  }
+}
