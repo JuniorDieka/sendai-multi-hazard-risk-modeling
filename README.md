@@ -79,7 +79,14 @@ Calculates ALL Sendai Framework indicators:
 - **Risk Modeling**: Exposure, vulnerability, and composite risk scores
 - **Trend Analysis**: Temporal patterns and forecasting
 
-### 4. Decision-Support Visualizations
+### 4. Machine Learning Predictions
+- **Event Frequency Forecasting**: Predict when disasters are likely to occur
+- **Impact Severity Prediction**: Estimate deaths, affected people, and economic losses
+- **Risk Score Prediction**: Identify high-risk locations using ML
+- **Feature Importance Analysis**: Understand key risk factors
+- **Model Persistence**: Save and load trained models for production use
+
+### 5. Decision-Support Visualizations
 - Time series plots with trend lines
 - Interactive dashboards (Plotly)
 - Geographic maps (Folium)
@@ -104,6 +111,7 @@ sendai-multi-hazard-risk-modeling/
 │   ├── 04_spatial_analysis.ipynb     # Geographic patterns
 │   ├── 05_risk_modeling.ipynb        # Risk assessment and Sendai indicators
 │   ├── 06_dashboard.ipynb            # Interactive dashboard
+│   ├── 07_machine_learning.ipynb     # ML models for prediction
 │   ├── USE_CASE_1_Financing.ipynb    # Budget allocation and climate finance
 │   ├── USE_CASE_2_Preparedness.ipynb # Resource pre-positioning
 │   ├── USE_CASE_3_EarlyWarning.ipynb # Forecasting and alerts
@@ -115,6 +123,7 @@ sendai-multi-hazard-risk-modeling/
 │   ├── analysis.py                   # Statistical analysis functions
 │   ├── visualization.py              # Plotting functions
 │   ├── risk_metrics.py               # Sendai indicators and risk scores
+│   ├── ml_models.py                  # Machine learning prediction models
 │   └── utils.py                      # Helper functions
 ├── outputs/
 │   ├── figures/                      # Generated plots
@@ -174,8 +183,9 @@ jupyter notebook
 ```
 
 1. Start with `01_data_exploration.ipynb`
-2. Continue through `02-05` for analysis
-3. Explore use cases for decision-support demonstrations
+2. Continue through `02-06` for analysis and visualization
+3. Run `07_machine_learning.ipynb` to train predictive models
+4. Explore use cases for decision-support demonstrations
 
 ---
 
@@ -189,11 +199,13 @@ jupyter notebook
 3. **Severity Analysis** (Notebook 03): Classify impacts and identify extreme events
 4. **Spatial Analysis** (Notebook 04): Map hotspots and geographic patterns
 5. **Risk Modeling** (Notebook 05): Calculate Sendai indicators and risk scores
+6. **Machine Learning** (Notebook 07): Train predictive models for forecasting
 
 **Key Functions:**
 ```python
 from src.external_data import ExternalDataFetcher
 from src.risk_metrics import add_sendai_indicators, calculate_multi_hazard_risk
+from src.ml_models import DisasterFrequencyPredictor, ImpactSeverityPredictor
 
 # Fetch external data
 fetcher = ExternalDataFetcher()
@@ -204,6 +216,11 @@ df_sendai = add_sendai_indicators(df)
 
 # Assess multi-hazard risk
 risk_assessment = calculate_multi_hazard_risk(df_sendai)
+
+# Train ML models
+freq_model = DisasterFrequencyPredictor()
+freq_model.train(df)
+freq_model.save()
 ```
 
 ### For Decision-Makers
@@ -415,7 +432,7 @@ COUNTRY_ISO_CODES = {
 
 ### Planned Features
 - [ ] Real-time data integration via APIs
-- [ ] Machine learning for impact prediction
+- [x] Machine learning for impact prediction ✅
 - [ ] Mobile data collection app integration
 - [ ] Automated report generation
 - [ ] Multi-language support
@@ -424,6 +441,8 @@ COUNTRY_ISO_CODES = {
 - [ ] Social vulnerability indicators
 
 ### Advanced Analytics
+- [x] Event frequency forecasting ✅
+- [x] Impact severity prediction ✅
 - [ ] Bayesian risk modeling
 - [ ] Agent-based simulation
 - [ ] Network analysis of cascading impacts
